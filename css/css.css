@@ -2,13 +2,200 @@ body
 {
 	margin: 0;
 	padding:0;
+  
+}
+
+.img
+{
+	position: absolute;
+	left: 0;
+	top: 0;
 	width: 100%;
-	background: url(../images/bg.png) no-repeat;
-	-webkit-background-size:100%;
-	-moz-background-size:100%;
-    background-size:100%;
+}
+img
+{
+	float: left;
+	width: 100%;
 }
 .logo
 {
+	position: relative;
+	margin-left: 0;
+	min-height:248px;
+	min-width:300px;
+	background: url(../images/logo.png) no-repeat;
+	-webkit-background-size:80% auto;
+	-moz-background-size:80% auto;
+    background-size:80% auto;
+    background-position:0px 50px;
+    z-index: 20;
+}
+.bbt
+{
+	position: absolute;
+	top:50%;
+	margin-top: 15%;
+	min-height:195px;
+	min-width: 245px;
+	background: url(../images/BBT.png) no-repeat;
+	-webkit-background-size:50% auto;
+	-moz-background-size:50% auto;
+    background-size:50% auto;
+    background-position:50px 0px;
+    z-index: 200;
+    
+}
+.slogan
+{
+	position: absolute;
+	margin-top: 18%;
+	top: 65%;
+	left: 10%;
+	width: 90%;
+	min-height:167px;
+	background: url(../images/slogan.png) no-repeat;
+	-webkit-background-size:80% auto;
+	-moz-background-size:80% auto;
+    background-size:80% auto;
+    background-position:0px 0px;
+    z-index: 100;
+    overflow: hidden;
+    
+}
+.intro
+{
+
+	position: absolute;
+	right:0;
+
+	width: 70%;
+	height: 200px;
+	background: url(../images/intro.png) no-repeat;
+	-webkit-background-size:80% auto;
+	-moz-background-size:80% auto;
+    background-size:80% auto;
+    background-position:10px 0px;
+    z-index: 101;
+    
+}
+
+.join
+{
+	float: right;
+	margin-top: -120px;
+	margin-right: 20px;
+
+}
+.join_pic
+{
 	margin: 0 auto;
+	min-height:96px;
+	min-width: 109px;
+	margin-bottom: -10px;
+	background: url(../images/join_pic.png) no-repeat;
+	-webkit-background-size:100% auto;
+	-moz-background-size:100% auto;
+    background-size:100% auto;
+    background-position:0px 0px;
+    z-index: 100;
+    
+}
+.join_text
+{
+
+	min-height:31px;
+	min-width: 104px;
+	background: url(../images/join_txt.png) no-repeat;
+	-webkit-background-size:100% auto;
+	-moz-background-size:100% auto;
+    background-size:100% auto;
+    background-position:0px 0px;
+    z-index: 101;
+    
+}
+@media screen and (min-height: 420px){
+.bbt
+{
+	position: absolute;
+	margin-top: 5%;
+	top:40%;
+}
+.intro
+{
+	top: 100%;
+}
+/*iphone4*/
+@media screen and (min-height: 470px){
+
+.intro
+{
+	top: 100%;
+}
+
+}
+/*iphone5*/
+@media screen and (min-height: 560px){
+
+.intro
+{
+	top: 85%;
+}
+
+
+}
+/*iphone6*/
+@media screen and (min-height: 620px){
+.intro
+{
+	top: 90%;
+
+}
+
+}
+/*samsung s4*/
+@media screen and (min-height: 640px) {
+.intro
+{
+	top: 85%;
+
+}
+
+}
+@media screen and (min-height: 680px) {
+.intro
+{
+	top: 85%;
+
+}
+}
+/*iphone 6 plus*/
+
+@media screen and (min-width: 720px) {
+.bbt
+{
+	position: absolute;
+	margin-top: 20%;
+	top:80%;
+}
+.logo
+{
+
+	-webkit-background-size:60% auto;
+	-moz-background-size:60% auto;
+    background-size:60% auto;
+    background-position:0px 50px;
+    z-index: 20;
+}
+.intro
+{
+	top: 85%;
+
+}
+
+}
+@media screen and (min-height: 800px) {
+.intro
+{
+	top: 85%;
+
 }
